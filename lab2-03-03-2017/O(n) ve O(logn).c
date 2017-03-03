@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+static int step=0;
 
 int pow(int x, int y){
     int us=1;
@@ -12,24 +13,26 @@ int pow(int x, int y){
 }
 long LongPow(int x,int n)
 {
+     step++;
     if(n==0) return 1;
     if(n==1) return x;
     if(n%2==0)
-        return pow(x*x,n/2);
+        return LongPow(x*x,n/2);
     else
-        return pow(x*x,n/2)*x;
+        return LongPow(x*x,n/2)*x;
 }
 
 
 int main()
 {
-   int taban=5;
-   int ust=3;
+   int taban=2;
+   int ust=4;
 
    printf("\nsonuc:%d",pow(taban,ust));
-   printf("\nsonuc:%d",LongPow(taban,ust));
+   printf("\nsonuc:%d step:%d",LongPow(taban,ust),step);
 
 
 
+ system("PAUSE");
     return 0;
 }
