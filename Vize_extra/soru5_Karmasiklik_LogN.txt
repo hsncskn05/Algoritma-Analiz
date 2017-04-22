@@ -3,7 +3,7 @@
 
 static int step=0;
 
-long powerLogN(int x,int n)     //Algoritmanýn karmasýklýgý LogN dir reqursive power fonksiyonu
+long powerLogN(int x,int n)     //Algoritmanin karmasikligi LogN dir reqursive power fonksiyonu
 {
      step++;
      if(n==0)
