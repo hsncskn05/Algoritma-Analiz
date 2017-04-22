@@ -2,7 +2,7 @@
 
 using namespace std;
 
-class Myclass                 //  algoritmanýn karmaþýklýðý ekleme iþlemlerinde O(1) dir 
+class Myclass                 //  algoritmanin karmasikligi ekleme islemi icin O(1) dir 
 {
     int array[10];
     int index;
