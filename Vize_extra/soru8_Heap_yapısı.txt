@@ -1,6 +1,6 @@
 
  
-// Heap yapısı  insert işlemi için karmaşıklık O(1)  arada bir değer olsaydı O(logN)
+// Heap yapÃ½sÃ½  insert islemi iÃ§in karmasiklik O(1)  arada bir deger olsaydi O(logN)
 // Base_case O(1) Worst_case O(logn)
  
 int heap[1000000], heapSize;
