@@ -1,0 +1,3 @@
+	
+//  Selection sort karmaþýklýðý Base_case O(n^2) Worst_case O(n^2) Average O(n^2)
+// 6. soruya uyarlarsak  O(logn) olur
