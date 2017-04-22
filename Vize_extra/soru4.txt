@@ -1,5 +1,5 @@
 //3. Sorunun Base_case O(n) dir 
-//Bubble sort sıralama mantığı ile elde etmek mümkündür çünkü liste eğer sıralı ise karmaşıklık O(n) olur 
+//Bubble sort siralama mantigi ile elde etmek mÃ¼mkÃ¼ndÃ¼r Ã§Ã¼nkÃ¼ liste eger sirali ise kasrmasiklik O(n) olur 
 
 void bubbleSort(int array[SIZE])
 {
