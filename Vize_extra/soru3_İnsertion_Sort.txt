@@ -1,5 +1,5 @@
 
-//Karmaþýklýgý Best_case O(n)  Worst_case O(n^2)  Average O(n^2)
+//Karmasiklik Best_case O(n)  Worst_case O(n^2)  Average O(n^2)
 
 
 void insertionSort(int array[SIZE])
