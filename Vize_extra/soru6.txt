@@ -1,6 +1,6 @@
 
-//pointer yapısında her düğümü node ile gösterildiğinden karmaşıklık O(1) dir 
-// dizi indisiyle eriştiğimizde karmaşıklık O(1) dir
+//pointer yapisinda her dÃ¼gÃ¼mÃ¼ node ile gÃ¶sterildiginden karmasiklik O(1) dir 
+// dizi indisiyle erisildiginde karmasiklik O(1) dir
 
 
 #include <iostream>
